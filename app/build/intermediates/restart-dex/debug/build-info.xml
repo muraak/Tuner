@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="21"
+    density="mdpi"
+    format="7"
+    timestamp="553955164693112"
+    token="-5437051128106015671" >
+
+    <task
+        name="javac"
+        duration="1558" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="483" />
+    <task
+        name="verifier"
+        duration="54" />
+
+    <artifact
+        location="C:\Users\Kenta\MyGarage\KMTuner\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="553955164693112" >
+        <artifact
+            location="C:\Users\Kenta\MyGarage\KMTuner\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

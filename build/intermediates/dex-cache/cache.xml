@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Kenta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Kenta\MyGarage\KMTuner\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_9990b259cb57523042a8401ccf488870630f96a6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Kenta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Kenta\Dropbox\Apps\Android\AndroidStudio\KMTuner\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-9990b259cb57523042a8401ccf488870630f96a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kenta\MyGarage\KMTuner\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="142736ee7da1d31405d47237ac09855ac54132e0">
+        <dex dex="C:\Users\Kenta\MyGarage\KMTuner\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eb3312784cd787d84803910fd7ce3f0f80cf7b26\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Kenta\MyGarage\KMTuner\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="6d1af4b52455dc7cb5b623ce12430497cad00a99">
+        <dex dex="C:\Users\Kenta\MyGarage\KMTuner\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f598dcbac82c918079a2c381c05d0919256ac699\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Kenta\\MyGarage\\KMTuner\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\led_green.png",
+        "source": "C:\\Users\\Kenta\\MyGarage\\KMTuner\\app\\src\\main\\res\\drawable\\led_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Kenta\\MyGarage\\KMTuner\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\led_off.png",
+        "source": "C:\\Users\\Kenta\\MyGarage\\KMTuner\\app\\src\\main\\res\\drawable\\led_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Kenta\\MyGarage\\KMTuner\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\led_red.png",
+        "source": "C:\\Users\\Kenta\\MyGarage\\KMTuner\\app\\src\\main\\res\\drawable\\led_red.png"
+    }
+]

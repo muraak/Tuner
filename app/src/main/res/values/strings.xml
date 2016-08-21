@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KMTuner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="zero">  </string>
+    <string name="led">led</string>
+    <string name="flat">♭</string>
+    <string name="sharp">#</string>
+    <string name="base">88</string>
+
+</resources>

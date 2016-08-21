@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#000000" >
+
+    <TextView
+        android:id="@+id/tv_pitch_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="72sp"
+        android:textColor="#330000" />
+    
+    <TextView
+        android:id="@+id/tv_pitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="72sp"
+        android:textColor="#EE0000" />
+    
+    <ImageView 
+        android:id="@+id/led_center_off"
+        android:src="@drawable/led_off"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/led"
+        android:layout_above="@+id/tv_pitch"
+        android:layout_width="48dip"
+        android:layout_height="48dip" />
+    
+    <ImageView 
+        android:id="@+id/led_center_on"
+        android:src="@drawable/led_green"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/led"
+        android:layout_above="@+id/tv_pitch"
+        android:layout_width="48dip"
+        android:layout_height="48dip" />
+    
+    <ImageView 
+        android:id="@+id/led_flat_off"
+        android:src="@drawable/led_off"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/led"
+        android:layout_above="@+id/tv_pitch"
+        android:layout_toLeftOf="@+id/led_center_off"
+        android:layout_width="48dip"
+        android:layout_height="48dip" />
+    
+    <ImageView 
+        android:id="@+id/led_flat_on"
+        android:src="@drawable/led_red"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/led"
+        android:layout_above="@+id/tv_pitch"
+        android:layout_toLeftOf="@+id/led_center_off"
+        android:layout_width="48dip"
+        android:layout_height="48dip" />
+    
+    <TextView
+        android:id="@+id/flat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="-10dip"
+        android:text="@string/flat"
+        android:layout_above="@+id/led_flat_off"
+        android:layout_toLeftOf="@+id/led_center_off"
+        android:textSize="32sp"
+        android:textColor="#EEEEEE" />
+    
+    <ImageView 
+        android:id="@+id/led_sharp_off"
+        android:src="@drawable/led_off"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/led"
+        android:layout_above="@+id/tv_pitch"
+        android:layout_toRightOf="@+id/led_center_off"
+        android:layout_width="48dip"
+        android:layout_height="48dip" />
+    
+    <ImageView 
+        android:id="@+id/led_sharp_on"
+        android:src="@drawable/led_red"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/led"
+        android:layout_above="@+id/tv_pitch"
+        android:layout_toRightOf="@+id/led_center_off"
+        android:layout_width="48dip"
+        android:layout_height="48dip" />
+    
+    <TextView
+        android:id="@+id/sharp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginBottom="-10dip"
+        android:text="@string/sharp"
+        android:layout_above="@+id/led_sharp_off"
+        android:layout_toRightOf="@+id/led_center_off"
+        android:textSize="32sp"
+        android:textColor="#EEEEEE" />
+
+</RelativeLayout>
